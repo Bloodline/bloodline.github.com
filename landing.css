@@ -1,6 +1,8 @@
-/*Special styles for the landing page*/
+/* Special styles for the landing page */
 /* Jumbotrons
 -------------------------------------------------- */
+
+/* Color scheme: #111111, #3f363f, #f2f1f1, #bb9999, #dd4444 */
 
 /* Base class
 ------------------------- */
@@ -114,7 +116,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 .masthead {
   padding: 70px 0 80px;
   margin-bottom: 0;
-  color: #fff;
+  color: #323232;
 }
 .masthead h1 {
   font-size: 120px;
@@ -160,4 +162,9 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   line-height: 1;
   *display: inline;
   *zoom: 1;
+}
+
+body{
+  background: url(./paper_fibers.png) repeat center center;
+  font-family: 'Junge', serif;
 }
