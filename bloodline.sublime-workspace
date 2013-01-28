@@ -135,7 +135,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2859,
+				"buffer_size": 3045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 124223,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "landing.css",
+			"settings":
+			{
+				"buffer_size": 4718,
 				"line_ending": "Unix"
 			}
 		}
@@ -164,6 +180,7 @@
 	},
 	"file_history":
 	[
+		"/home/siddharth/bloodline.github.com/bootstrap/css/bootstrap.min.css",
 		"/home/siddharth/rca/static_files/js/main.js",
 		"/home/siddharth/rc/static_files/js/mainframe.js",
 		"/home/siddharth/rc/users/models.py",
@@ -220,6 +237,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"body {",
+			"body",
+			"font-family",
+			"#EEE",
+			"opacity",
 			"p",
 			"editprof",
 			"border",
@@ -312,7 +334,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -320,15 +342,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2859,
+						"buffer_size": 3045,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2341,
-								2341
+								2700,
+								2700
 							]
 						],
 						"settings":
@@ -338,7 +360,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bootstrap/css/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 124223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123694,
+								123694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 101574.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "landing.css",
+					"settings":
+					{
+						"buffer_size": 4718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3521,
+								3521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1479.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
