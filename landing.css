@@ -98,7 +98,7 @@
   bottom: 0;
   left: 0;
   background: url(./graph2.png) repeat center center;
-  opacity: 1.0;
+  opacity: 0.6;
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
