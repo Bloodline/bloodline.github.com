@@ -15,7 +15,7 @@
   background: #3f363f; /* Old browsers */
   background: -moz-linear-gradient(45deg,  #3f363f 0%, #f2f1f1 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(45deg,  #3f363f 0%,#f2f1f1 100%); /* Chrome10+,Safari5.1+ */
+  background: -webkit-linear-gradient(45deg,  #f2f1f1 0%,#f2f1f1 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(45deg,  #3f363f 0%,#f2f1f1 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(45deg,  #3f363f 0%,#f2f1f1 100%); /* IE10+ */
   background: linear-gradient(45deg,  #3f363f 0%,#f2f1f1 100%); /* W3C */
@@ -97,8 +97,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(./graph.jpg) repeat center center;
-  opacity: 0.7;
+  background: url(./graph2.png) repeat center center;
+  opacity: 1.0;
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
