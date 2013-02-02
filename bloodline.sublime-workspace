@@ -135,7 +135,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3045,
+				"buffer_size": 4036,
 				"line_ending": "Unix"
 			}
 		},
@@ -151,7 +151,7 @@
 			"file": "landing.css",
 			"settings":
 			{
-				"buffer_size": 4718,
+				"buffer_size": 4725,
 				"line_ending": "Unix"
 			}
 		}
@@ -334,7 +334,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -342,15 +342,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3045,
+						"buffer_size": 4036,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2700,
-								2700
+								1599,
+								1599
 							]
 						],
 						"settings":
@@ -360,7 +360,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 663.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -398,23 +398,25 @@
 					"file": "landing.css",
 					"settings":
 					{
-						"buffer_size": 4718,
+						"buffer_size": 4725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3521,
-								3521
+								4296,
+								4296
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1479.0,
+						"translation.y": 1989.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
