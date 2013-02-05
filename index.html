@@ -1,85 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>BloodLine - A Network for Life.</title>
-<meta name="description" content="Bloodline is a mobile web-based application that enables smart and fast communication between healthcare facilities and blood donors by leveraging smart phone technology, web-mapping and the reach of social networking.">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-<link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="./landing.css">
-<link rel="icon" type="image/jpg" href="./favicon.ico">
-<!-- Analytics -->
-<script type="text/javascript">
+  <meta charset="utf-8" />
+  <title>BloodLine - A Network for Life.</title>
+  <meta name="description" content="Bloodline is a mobile web-based application that enables smart and fast communication between healthcare facilities and blood donors by leveraging smart phone technology, web-mapping and the reach of social networking.">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+  <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./landing.css">
+  <link rel="icon" type="image/jpg" href="./favicon.ico">
+  <!-- Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-10620514-7']);
+    _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-10620514-7']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head> 
 <body>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
 </script>
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="./index.html">Bloodline</a>
-        <div class="nav-collapse collapse">
-          <ul class="nav">
-            <li><a href="">Who we are</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="">Talk to us</a></li>
-          </ul>
-        </div>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <!-- <a class="brand" href="./index.html">Bloodline</a> -->
+      <a class="dellchallenge" href="http://dell.com"><img src="img/dell.png"></a>
+      <a class="social-buttons" href="http://dell.com"><img src="img/f.png"></a>
+      <a class="social-buttons" href="http://dell.com"><img src="img/t.png"></a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li><a href="">Who we are</a></li>
+          <!-- <li class="divider-vertical"></li> -->
+          <li><a href="">Talk to us</a></li>
+        </ul>
       </div>
     </div>
   </div>
-  <div class="jumbotron masthead">
-    <div class="header-image">
-      <img src="./header-image.png">
-    </div>
-    <div class="container">
-      <p>A Network for Life</p>
-    </div>
+</div>
+<div class="jumbotron masthead">
+  <div class="header-image">
+    <img src="./img/header-image.png">
   </div>
-  <div class="bloodline-social">
-    <div class="container">
-      <ul class="bloodline-social-buttons">
-        <li>
-          <a href="https://twitter.com/bloodlinelabs" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @bloodlinelabs</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </li>
-        <li>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-via="bloodlinelabs" data-size="small" data-hashtags="Bloodline">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </li>
-        <li>
-            <div id="fb-like-btn" class="fb-like" data-href="https://www.facebook.com/bloodlinelabs" data-send="false" data-layout="button_count" data-width="650" data-show-faces="false" data-font="tahoma"></div>
-        </li>
-      </ul>
-    </div>
+  <div class="container tagline">
+    <p>A Network for Life</p>
   </div>
-<div class="container">
-	<!-- <div class="row" style="height:327px">
-    <img id="header1" class="headerImage" style="display:block" src="bootstrap/img/header1.jpg">
-    <img id="header2" class="headerImage" style="display:none" src="bootstrap/img/header2.jpg">
-		<img id="header3" class="headerImage" style="display:none" src="bootstrap/img/header3.jpg">
-	</div> -->
+</div>
+<div class="bloodline-social">
+  <div class="container">
+    <ul class="bloodline-social-buttons">
+      <li>
+        <a href="https://twitter.com/bloodlinelabs" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @bloodlinelabs</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </li>
+      <li>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="bloodlinelabs" data-size="small" data-hashtags="Bloodline">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </li>
+      <li>
+          <div id="fb-like-btn" class="fb-like" data-href="https://www.facebook.com/bloodlinelabs" data-send="false" data-layout="button_count" data-width="650" data-show-faces="false" data-font="tahoma"></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<section class="connect-section">
+  <div class="container">
+    <img src="./img/connect.png">
+  </div>
+</section>
+
+<section class="hero-section">
+  <div class="container">
+    <img src="./img/hero.png">
+  </div>
+</section>
+
+<section class="how-to-donate-section">
+  <div class="container">
+    <img src="./img/donate.png">
+  </div>
+</section>
+
+<section class="get-donor-section">
+  <div class="container">
+    <img src="./img/get-donor.png">
+  </div>
+</section>
+
+<!-- <div class="container">
   <div class="hero-unit row">
-    <!-- <h1>A network for life.</h1> -->
       <p>A critical issue facing healthcare today, especially in developing nations like India, is the inability to meet the country’s blood requirements through voluntary blood donation. One of the most significant factors contributing to this shortage, is the lack of efficient communication between healthcare facilities and blood donors. <strong>Bloodline</strong> enables health care facilities to connect to a network of blood donors in a fast, inexpensive and strategic manner.</p>
   </div>
   <div class="row">
@@ -90,6 +110,11 @@
     <div class="span2"><img src="./iphone.png"></div>
     <div class="span5"><img src="./galaxys3.png"></div>
     <div class="span5"><div style="padding-top:50%"><h1>All it takes is an App</h1><p>The power to save lives, in your pocket.</p></div></div>
+  </div>
+</div> -->
+<div id="footer">
+  <div class="container">
+    &copy; Bloodline Labs
   </div>
 </div>
 </body> 

@@ -88,7 +88,7 @@
 .jumbotron .header-image{
 	position: relative;
 	z-index: 2;
-  margin: 40px 0px 30px 0px;
+  margin: 80px 0px 30px 0px;
 }
 .jumbotron:after {
   content: '';
@@ -98,7 +98,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(./graph2.png) repeat center center;
+  background: url(./img/graph2.png) repeat center center;
   opacity: 0.6;
 }
 @media
@@ -115,7 +115,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 /* Masthead (docs home)
 ------------------------- */
 .masthead {
-  padding: 70px 0 80px;
+  padding: 70px 0 70px;
   margin-bottom: 0;
   color: #323232;
 }
@@ -145,9 +145,15 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 .bloodline-social {
   padding: 15px 0;
   text-align: center;
-  background-color: #f2f1f1;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #ddd;
+  background-color: #12130b;
+  background-image: -moz-linear-gradient(top, #222215, #060604);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222215), to(#060604));
+  background-image: -webkit-linear-gradient(top, #222215, #060604);
+  background-image: -o-linear-gradient(top, #222215, #060604);
+  background-image: linear-gradient(to bottom, #222215, #060604);
+  background-repeat: repeat-x;
+  border-top: 1px solid #12130b;
+  border-bottom: 1px solid #12130b;
 }
 
 /* Quick links on Home */
@@ -167,8 +173,8 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 }
 
 body{
-  background: url(./paper_fibers.png) repeat center center;
-  font-family: 'Junge', serif;
+  background: url(./img/paper_fibers.png) repeat center center;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 /* Tweak navbar brand link to be super sleek
@@ -180,6 +186,7 @@ body > .navbar {
 
 /* Change the docs' brand */
 body > .navbar .brand {
+  font-family: 'Junge', serif;
   padding-right: 0;
   padding-left: 0;
   margin-left: 20px;
@@ -193,6 +200,93 @@ body > .navbar .brand {
 }
 body > .navbar .brand:hover {
   text-decoration: none;
-  color: #111111;
-  text-shadow: 0 1px 0 rgba(0,0,0,.1), 0 0 30px rgba(0,0,0,.4);
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(255,255,255,1), 0 0 30px rgba(255,255,255,.4);
+}
+
+/*Editing the nav-bar*/
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #17180e;
+  background-image: -moz-linear-gradient(top, #4c4f2e, #18190f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4c4f2e), to(#18190f));
+  background-image: -webkit-linear-gradient(top, #4c4f2e, #18190f);
+  background-image: -o-linear-gradient(top, #4c4f2e, #18190f);
+  background-image: linear-gradient(to bottom, #4c4f2e, #18190f);
+  background-repeat: repeat-x;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+.navbar .nav > li > a {
+  float: none;
+  font-size: 20px;
+  padding: 30px 35px 10px;
+  color: #f2f1f1;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+body > .navbar .dellchallenge {
+  padding-right: 10px;
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  float: right;
+}
+
+body > .navbar .social-buttons {
+  padding-right: 10px;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  float: right;
+}
+
+.tagline {
+  font-family: 'Junge', serif;
+  color: #000;
+}
+
+.connect-section {
+  padding: 50px 0;
+  background: url(./img/stressed_linen.jpg) repeat center center;
+}
+
+.hero-section {
+  padding: 50px 0;
+  background: url(./img/egg_shell.jpg) repeat center center;
+}
+
+.how-to-donate-section {
+  padding: 50px 0;
+  background-color: #8da581;
+}
+
+.get-donor-section {
+  padding: 50px 0;
+  background-color: #e7dfd4;
 }
