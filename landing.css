@@ -290,3 +290,32 @@ body > .navbar .social-buttons {
   padding: 50px 0;
   background-color: #e7dfd4;
 }
+
+.center{
+  text-align: center;
+}
+
+#test-overlay{
+  position: relative;
+  /*top: -433px;*/
+  z-index: 2;
+  -webkit-transition: all 2s linear;
+     -moz-transition: all 2s linear;
+          transition: all 2s linear;
+}
+
+.relative-position{
+  position: relative;
+}
+
+#connect1{
+  background: url(./img/connect1.png) center center;
+  min-height: 570px;
+  background-size: 100%;
+}
+
+#connect2{
+  background: url(./img/connect2.png) center center;
+  min-height: 570px;
+  background-size: 100%;
+}
