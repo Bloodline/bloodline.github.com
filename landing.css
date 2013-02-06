@@ -295,15 +295,6 @@ body > .navbar .social-buttons {
   text-align: center;
 }
 
-#test-overlay{
-  position: relative;
-  /*top: -433px;*/
-  z-index: 2;
-  -webkit-transition: all 2s linear;
-     -moz-transition: all 2s linear;
-          transition: all 2s linear;
-}
-
 .relative-position{
   position: relative;
 }
@@ -318,4 +309,7 @@ body > .navbar .social-buttons {
   background: url(./img/connect2.png) center center;
   min-height: 570px;
   background-size: 100%;
+  -webkit-transition: all 2s ease-in-out;
+   -moz-transition: all 2s ease-in-out;
+        transition: all 2s ease-in-out;
 }

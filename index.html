@@ -76,8 +76,6 @@
 </div>
 <section class="connect-section">
   <div class="container">
-      <!-- <img src="./img/connect1.png"> -->
-      <!-- <img src="./img/connect2.png"> -->
       <div id="connect1">
         <div id="connect2"></div>
       </div>
@@ -121,27 +119,29 @@
     &copy; Bloodline Labs
   </div>
 </div>
-// <script type="text/javascript">
-// var curAngle= 0;
-// var curDuration = 2000;
-// var toggleDir = 1;
-// function automateRotate(){
-//   c = document.getElementById('test-overlay');
-//   if(curAngle >= 360){
-//     toggleDir = -1;
-//     curDuration = 4000;
-//     c.style.webkitTransformDuration = (curDuration/1000).toString() + "s";
-//   }
-//   else if(curAngle<=0){
-//     toggleDir = 1;
-//     curDuration = 2000;
-//     c.style.webkitTransformDuration = (curDuration/1000).toString() + "s";
-//   }
-//   curAngle += toggleDir*90;
-//   c.style.webkitTransform = "rotate("+curAngle.toString()+"deg)";
-//   t = setTimeout("automateRotate()",curDuration);
-// }
-// automateRotate();
-// </script>
+ <script type="text/javascript">
+var curAngle= 0;
+var curDuration =Math.floor(Math.random()*4001) + 2000;
+var toggleDir = 1;
+var c = document.getElementById('connect2');
+function automateRotate(){
+  curDuration =Math.floor(Math.random()*4001) + 2000;
+  nextAngle = Math.floor(Math.random()*91);
+  dir = Math.floor(Math.random()*2);
+  if(dir == 0){
+    toggleDir = -1;
+  }
+  else{
+    toggleDir = 1;
+  }
+  curAngle += toggleDir*nextAngle;
+  console.log(curDuration);
+  console.log(nextAngle);
+  c.style.webkitTransitionDuration = (curDuration/1000).toString() + "s";
+  c.style.webkitTransform = "rotate("+curAngle.toString()+"deg)";
+  t = setTimeout("automateRotate()",curDuration);
+}
+automateRotate();
+</script>
 </body> 
 </html>
