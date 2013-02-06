@@ -175,6 +175,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 body{
   background: url(./img/paper_fibers.png) repeat center center;
   font-family: 'Titillium Web', sans-serif;
+  padding-top: 90px;
 }
 
 /* Tweak navbar brand link to be super sleek
@@ -231,7 +232,7 @@ body > .navbar .brand:hover {
 .navbar .nav > li > a {
   float: none;
   font-size: 20px;
-  padding: 30px 35px 10px;
+  padding: 30px 20px 10px;
   color: #f2f1f1;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
@@ -294,10 +295,14 @@ body > .navbar .social-buttons {
 }
 
 .get-donor-section {
-  padding: 50px 0;
+  padding: 95px 0px 0px 0px;
   background-color: #e7dfd4;
 }
 
+.get-donor-section h1{
+  color: #3f4036;
+  margin-bottom: 10px;
+}
 .center{
   text-align: center;
 }
@@ -310,20 +315,22 @@ body > .navbar .social-buttons {
   background: url(./img/connect1.png) center center;
   min-height: 570px;
   background-size: 100%;
-  z-index: 2;
+  background-repeat: no-repeat;
 }
 
 #connect2{
   background: url(./img/connect2.png) center center;
   min-height: 570px;
   background-size: 100%;
-  z-index: 1;
+  background-repeat: no-repeat;
   -webkit-transition: all 2s ease-in-out;
    -moz-transition: all 2s ease-in-out;
         transition: all 2s ease-in-out;
 }
 
 .why-us {
+  padding-top: 95px;
+  padding-bottom: 20px;
   color: #ffffff;
   background-color: #14100f;
   text-align: center;
@@ -345,4 +352,9 @@ body > .navbar .social-buttons {
 
 .why-us .title{
   padding: 20px;
+}
+
+#footer{
+  background-color: #14100f;
+  color: #ffffff
 }

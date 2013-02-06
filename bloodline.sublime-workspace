@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding"
+			],
+			[
 				"backgr",
-				"background-size"
+				"background-color"
 			],
 			[
 				"ba",
@@ -18,10 +22,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"padding",
-				"padding-bottom"
 			],
 			[
 				"margi",
@@ -159,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6407,
+				"buffer_size": 7541,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,7 +175,7 @@
 			"file": "landing.css",
 			"settings":
 			{
-				"buffer_size": 8441,
+				"buffer_size": 8920,
 				"line_ending": "Unix"
 			}
 		}
@@ -369,7 +369,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -377,15 +377,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 6407,
+						"buffer_size": 7541,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6309,
-								6309
+								4550,
+								4550
 							]
 						],
 						"settings":
@@ -395,7 +395,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2261.0,
+						"translation.y": 1699.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -433,15 +433,15 @@
 					"file": "landing.css",
 					"settings":
 					{
-						"buffer_size": 8441,
+						"buffer_size": 8920,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8345,
-								8345
+								8918,
+								8918
 							]
 						],
 						"settings":
@@ -451,7 +451,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4981.0,
+						"translation.y": 5319.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

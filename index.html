@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <title>BloodLine - A Network for Life.</title>
   <meta name="description" content="Bloodline is a mobile web-based application that enables smart and fast communication between healthcare facilities and blood donors by leveraging smart phone technology, web-mapping and the reach of social networking.">
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
   <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
@@ -41,11 +41,15 @@
       <a class="dellchallenge" href="http://www.dellchallenge.org/projects/bloodline"><img src="img/dell.png"></a>
       <a class="social-buttons" href="https://www.facebook.com/bloodlinelabs"><img src="img/f.png"></a>
       <a class="social-buttons" href="https://twitter.com/bloodlinelabs"><img src="img/t.png"></a>
+      <a class="social-buttons" href="#"><img src="img/p.png"></a>
       <div class="nav-collapse collapse">
         <ul class="nav">
-          <li><a href="">Who we are</a></li>
+          <!-- <li><a href="">Who we are</a></li> -->
           <!-- <li class="divider-vertical"></li> -->
-          <li><a href="">Talk to us</a></li>
+          <!-- <li><a href="">Talk to us</a></li> -->
+          <li><a href="#how-to-donate" class="scroll-links">Donate</a></li>
+          <li><a href="#get-donor" class="scroll-links">Find a donor</a></li>
+          <li><a href="#why-us" class="scroll-links">What's new?</a></li>
         </ul>
       </div>
     </div>
@@ -90,21 +94,24 @@
   </div>
 </section>
 
-<section class="how-to-donate-section">
+<section id="how-to-donate" class="how-to-donate-section">
   <div class="container">
     <img src="./img/donate.png">
   </div>
 </section>
 
-<section class="get-donor-section">
+<section id="get-donor" class="get-donor-section">
+  <div class="container">
+    <h1>Find a donor. <small>Nearby.</small></h1>
+  </div>
   <div class="container">
     <img src="./img/get-donor.png">
   </div>
 </section>
 
-<section class="why-us">
+<section id="why-us" class="why-us">
   <div class="row container title">
-    <h1 class="pull-left">Why Bloodline? <small> What makes us unique?</small></h1>
+    <h1 class="pull-left">Why Bloodline? <small>  What makes us unique?</small></h1>
   </div>
   <div class="row container">
     <div class="span4 sides">
@@ -128,20 +135,6 @@
   </div>
 </section>
 
-<!-- <div class="container">
-  <div class="hero-unit row">
-      <p>A critical issue facing healthcare today, especially in developing nations like India, is the inability to meet the country’s blood requirements through voluntary blood donation. One of the most significant factors contributing to this shortage, is the lack of efficient communication between healthcare facilities and blood donors. <strong>Bloodline</strong> enables health care facilities to connect to a network of blood donors in a fast, inexpensive and strategic manner.</p>
-  </div>
-  <div class="row">
-    <div class="span4"><div style="padding-top:25%"><h1>Be a hero.</h1><h3>Roll up your sleeves.</h3><p>Did you know that your blood gets replenished within 3 days of donation?</p></div></div>
-      <div class="span7"><img src="bootstrap/img/bag.gif"></div>
-  </div>
-  <div class="row">
-    <div class="span2"><img src="./iphone.png"></div>
-    <div class="span5"><img src="./galaxys3.png"></div>
-    <div class="span5"><div style="padding-top:50%"><h1>All it takes is an App</h1><p>The power to save lives, in your pocket.</p></div></div>
-  </div>
-</div> -->
 <div id="footer">
   <div class="container center">
     &copy; Bloodline Labs
@@ -170,6 +163,15 @@ function automateRotate(){
   t = setTimeout("automateRotate()",curDuration);
 }
 automateRotate();
+$(document).ready(function() {
+  $(".scroll-links").click(function() {
+    $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top + "px"}, {duration: 450,specialEasing: {
+      width: 'linear',
+      height: 'easeOutBounce'
+    }});
+    return false;
+  });});
+
 </script>
 </body> 
 </html>
