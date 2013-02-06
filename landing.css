@@ -284,7 +284,8 @@ body > .navbar .social-buttons {
 .hero-overlay{
   background-image: url(./img/bigdrop.png);
   background-repeat: no-repeat;
-  background-size: 50%; 
+  background-size: 30%; 
+  background-position: 100% -10%;
 }
 
 .how-to-donate-section {
@@ -309,13 +310,39 @@ body > .navbar .social-buttons {
   background: url(./img/connect1.png) center center;
   min-height: 570px;
   background-size: 100%;
+  z-index: 2;
 }
 
 #connect2{
   background: url(./img/connect2.png) center center;
   min-height: 570px;
   background-size: 100%;
+  z-index: 1;
   -webkit-transition: all 2s ease-in-out;
    -moz-transition: all 2s ease-in-out;
         transition: all 2s ease-in-out;
+}
+
+.why-us {
+  color: #ffffff;
+  background-color: #14100f;
+  text-align: center;
+}
+
+.why-us .centerpart {
+  background-color: #191413;
+  margin: auto auto;
+}
+
+.why-us .sides {
+  background-color: #1d1716;
+  margin: auto auto;
+}
+
+.why-us p {
+  padding: 20px;
+}
+
+.why-us .title{
+  padding: 20px;
 }
