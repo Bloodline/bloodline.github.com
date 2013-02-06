@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
 				"cur",
 				"curDuration"
 			],
@@ -151,7 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6342,
+				"buffer_size": 6407,
 				"line_ending": "Unix"
 			}
 		},
@@ -167,7 +175,7 @@
 			"file": "landing.css",
 			"settings":
 			{
-				"buffer_size": 8228,
+				"buffer_size": 8441,
 				"line_ending": "Unix"
 			}
 		}
@@ -253,6 +261,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"linear",
+			"z-index",
 			"center",
 			"footer",
 			".png",
@@ -367,15 +377,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 6342,
+						"buffer_size": 6407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6294,
-								6294
+								6309,
+								6309
 							]
 						],
 						"settings":
@@ -385,7 +395,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2124.0,
+						"translation.y": 2261.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -423,15 +433,15 @@
 					"file": "landing.css",
 					"settings":
 					{
-						"buffer_size": 8228,
+						"buffer_size": 8441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8051,
-								8051
+								8345,
+								8345
 							]
 						],
 						"settings":
@@ -441,7 +451,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4912.0,
+						"translation.y": 4981.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -278,7 +278,13 @@ body > .navbar .social-buttons {
 
 .hero-section {
   padding: 50px 0;
-  background: url(./img/egg_shell.jpg) repeat center center;
+  background: url(./img/egg_shell.jpg) no-repeat center center;
+}
+
+.hero-overlay{
+  background-image: url(./img/bigdrop.png);
+  background-repeat: no-repeat;
+  background-size: 50%; 
 }
 
 .how-to-donate-section {
