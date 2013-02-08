@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"colo",
+				"background-color"
+			],
+			[
 				"padding",
-				"padding"
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-top"
 			],
 			[
 				"backgr",
@@ -159,7 +171,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7541,
+				"buffer_size": 7184,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,7 +187,7 @@
 			"file": "landing.css",
 			"settings":
 			{
-				"buffer_size": 8920,
+				"buffer_size": 9235,
 				"line_ending": "Unix"
 			}
 		}
@@ -261,6 +273,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"centerpart",
+			"unique",
+			"navbar ",
+			"body",
+			"body {",
+			"body",
+			"navbar",
 			"linear",
 			"z-index",
 			"center",
@@ -377,15 +396,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 7541,
+						"buffer_size": 7184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4550,
-								4550
+								4647,
+								4647
 							]
 						],
 						"settings":
@@ -395,7 +414,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1699.0,
+						"translation.y": 1597.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -412,8 +431,8 @@
 						"selection":
 						[
 							[
-								86110,
-								86110
+								39919,
+								39919
 							]
 						],
 						"settings":
@@ -423,7 +442,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 77265.0,
+						"translation.y": 37348.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -433,15 +452,15 @@
 					"file": "landing.css",
 					"settings":
 					{
-						"buffer_size": 8920,
+						"buffer_size": 9235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8918,
-								8918
+								8092,
+								8092
 							]
 						],
 						"settings":
@@ -451,7 +470,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5319.0,
+						"translation.y": 4674.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

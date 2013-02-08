@@ -290,8 +290,13 @@ body > .navbar .social-buttons {
 }
 
 .how-to-donate-section {
-  padding: 50px 0;
+  padding: 95px 0 40px 0px;
   background-color: #8da581;
+  color: #ffffff;
+}
+
+.how-to-donate-section small {
+  color: #1c1615;
 }
 
 .get-donor-section {
