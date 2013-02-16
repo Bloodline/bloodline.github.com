@@ -7,6 +7,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="jQuery.equalHeights.js"></script>
+  <script type="text/javascript" src="http://malsup.github.com/jquery.form.js"></script> 
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
   <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic' rel='stylesheet' type='text/css'>
@@ -140,6 +141,18 @@
       <p>That's what we're here for.</p>
     </div>
   </div>
+  <div class="row container">
+    <h1 class="pull-left">Be the first to know. <small>When we're ready.</small></h1>
+  </div>
+  <div class="row container" id="signup">
+    <div class="span3"><p>We'll send you an email the minute we launch the app. Don't worry, we will <em>never</em> spam you nor share your contact with anyone else!</p></div>
+    <div class="span8" id="formdiv">
+      <form id="myForm" action="http://dev.bloodlinelabs.com/landingsignup.php" method="post"> 
+          <input type="email" name="email" value="Your email address" onfocus="if(this.value == 'Your email address') { this.value = ''; }" required>
+          <input type="submit" class="btn btn-inverse" value="Let me know!">
+      </form>
+    </div>
+  </div>
 </section>
 
 <div id="footer">
@@ -169,10 +182,6 @@ function automateRotate(){
   c.style.webkitTransform = "rotate("+curAngle.toString()+"deg)";
   t = setTimeout("automateRotate()",curDuration);
 }
-$(document).ready(function(){
-  automateRotate();
-  $('#three-column-container').equalHeights();
-});
 $(document).ready(function() {
   $(".scroll-links").click(function() {
     $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top + "px"}, {duration: 450,specialEasing: {
@@ -180,6 +189,10 @@ $(document).ready(function() {
       height: 'easeOutBounce'
     }});
     return false;
+  });
+  automateRotate();
+  $('#myForm').ajaxForm(function() { 
+      $("#formdiv").html("Thanks! We'll keep you posted.")
   });
 });
 </script>
@@ -189,6 +202,10 @@ $(document).ready(function() {
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
+$(window).load(function(){
+  $('#three-column-container').equalHeights();
+  $("#signup").equalHeights();
+});
 </script>
 </body> 
 </html>

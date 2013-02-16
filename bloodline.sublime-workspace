@@ -187,7 +187,7 @@
 			"file": "landing.css",
 			"settings":
 			{
-				"buffer_size": 9235,
+				"buffer_size": 9218,
 				"line_ending": "Unix"
 			}
 		}
@@ -452,15 +452,15 @@
 					"file": "landing.css",
 					"settings":
 					{
-						"buffer_size": 9235,
+						"buffer_size": 9218,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8092,
-								8092
+								7870,
+								7870
 							]
 						],
 						"settings":

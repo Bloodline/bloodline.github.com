@@ -355,8 +355,16 @@ body > .navbar .social-buttons {
   padding: 20px;
 }
 
-.why-us .title{
-  padding: 20px;
+.why-us div{
+  padding-top: 20px;
+}
+
+.why-us input{
+  margin: 0 20px 0 0;
+}
+
+#formdiv{
+  padding-top: 80px;
 }
 
 #footer{
