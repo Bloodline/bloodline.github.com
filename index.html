@@ -6,6 +6,7 @@
   <meta name="description" content="Bloodline is a mobile web-based application that enables smart and fast communication between healthcare facilities and blood donors by leveraging smart phone technology, web-mapping and the reach of social networking.">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="jQuery.equalHeights.js"></script>
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
   <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic' rel='stylesheet' type='text/css'>
@@ -119,7 +120,7 @@
   <div class="row container title">
     <h1 class="pull-left">Why Bloodline? <small>  What makes us unique?</small></h1>
   </div>
-  <div class="row container">
+  <div class="row container" id="three-column-container">
     <div class="span4 sides">
       <h3>Targeted Approach</h3>
       <img src="./img/unique.png">
@@ -176,8 +177,9 @@ $(document).ready(function() {
       height: 'easeOutBounce'
     }});
     return false;
-  });});
-
+  });
+  $('#three-column-container').equalHeights();
+});
 </script>
 <script type="text/javascript">
   (function() {
