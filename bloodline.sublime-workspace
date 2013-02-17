@@ -175,7 +175,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8779,
+				"buffer_size": 8910,
 				"line_ending": "Unix"
 			}
 		},
@@ -191,7 +191,7 @@
 			"file": "landing.css",
 			"settings":
 			{
-				"buffer_size": 9293,
+				"buffer_size": 9291,
 				"line_ending": "Unix"
 			}
 		}
@@ -277,6 +277,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"scroll-links",
+			"social-buttons",
 			"centerpart",
 			"unique",
 			"navbar ",
@@ -400,15 +402,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8779,
+						"buffer_size": 8910,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7114,
-								7114
+								7309,
+								7309
 							]
 						],
 						"settings":
@@ -418,7 +420,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2490.0,
+						"translation.y": 2448.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -456,15 +458,15 @@
 					"file": "landing.css",
 					"settings":
 					{
-						"buffer_size": 9293,
+						"buffer_size": 9291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9236,
-								9236
+								6890,
+								6890
 							]
 						],
 						"settings":
@@ -474,7 +476,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5831.0,
+						"translation.y": 3739.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
