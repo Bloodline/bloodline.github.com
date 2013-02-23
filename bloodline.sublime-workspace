@@ -175,7 +175,19 @@
 			"file": "index.html",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 8910,
+=======
+				"buffer_size": 7821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "jQuery.equalHeights.js",
+			"settings":
+			{
+				"buffer_size": 2231,
+>>>>>>> Some sublime stuff. Should remove this file.
 				"line_ending": "Unix"
 			}
 		},
@@ -191,7 +203,11 @@
 			"file": "landing.css",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 9291,
+=======
+				"buffer_size": 9218,
+>>>>>>> Some sublime stuff. Should remove this file.
 				"line_ending": "Unix"
 			}
 		}
@@ -277,8 +293,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
 			"scroll-links",
 			"social-buttons",
+=======
+			"qualHeights",
+>>>>>>> Some sublime stuff. Should remove this file.
 			"centerpart",
 			"unique",
 			"navbar ",
@@ -402,15 +422,24 @@
 					"file": "index.html",
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 8910,
+=======
+						"buffer_size": 7821,
+>>>>>>> Some sublime stuff. Should remove this file.
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								7309,
 								7309
+=======
+								7211,
+								7211
+>>>>>>> Some sublime stuff. Should remove this file.
 							]
 						],
 						"settings":
@@ -420,13 +449,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 2448.0,
+=======
+						"translation.y": 2243.0,
+>>>>>>> Some sublime stuff. Should remove this file.
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "jQuery.equalHeights.js",
+					"settings":
+					{
+						"buffer_size": 2231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1474,
+								1474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "bootstrap/css/bootstrap.css",
 					"settings":
 					{
@@ -454,19 +514,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "landing.css",
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 9291,
+=======
+						"buffer_size": 9218,
+>>>>>>> Some sublime stuff. Should remove this file.
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								6890,
 								6890
+=======
+								7303,
+								7303
+>>>>>>> Some sublime stuff. Should remove this file.
 							]
 						],
 						"settings":
@@ -476,7 +545,11 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 3739.0,
+=======
+						"translation.y": 3579.0,
+>>>>>>> Some sublime stuff. Should remove this file.
 						"zoom_level": 1.0
 					},
 					"type": "text"
