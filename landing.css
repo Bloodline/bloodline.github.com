@@ -175,7 +175,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 body{
   background: url(./img/paper_fibers.png) repeat center center;
   font-family: 'Titillium Web', sans-serif;
-  padding-top: 90px;
+  padding-top: 72px;
 }
 
 /* Tweak navbar brand link to be super sleek
@@ -232,7 +232,7 @@ body > .navbar .brand:hover {
 .navbar .nav > li > a {
   float: none;
   font-size: 20px;
-  padding: 30px 10px 10px;
+  padding: 25px 20px 10px;
   color: #f2f1f1;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
@@ -259,9 +259,9 @@ body > .navbar .dellchallenge {
 }
 
 body > .navbar .social-buttons {
-  padding-right: 5px;
-  padding-left: 0;
-  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 0px;
   float: right;
